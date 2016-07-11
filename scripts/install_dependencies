@@ -1,5 +1,5 @@
 #!/bin/bash
-#yum install -y httpd
+yum install -y httpd
 echo "Currently in Beforeinstall" >> /tmp/beforeinstall.out
 vmstat 1 1000 > /tmp/beforeinstall-vmstat.out
 
